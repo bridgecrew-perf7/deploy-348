@@ -1,0 +1,23 @@
+{
+  "name": "deploy",
+  "version": "0.1.0",
+  "bin": {
+    "deploy": "bin/deploy.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.102.0",
+    "aws-cdk": "1.102.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-sns": "1.102.0",
+    "@aws-cdk/aws-sns-subscriptions": "1.102.0",
+    "@aws-cdk/aws-sqs": "1.102.0",
+    "@aws-cdk/core": "1.102.0"
+  }
+}
