@@ -1,4 +1,4 @@
-# Welcome to your CDK JavaScript project!
+# Welcome to the phone number reverse vanity function
 To deploy this package.
  cdk deploy --parameters InstanceId=<Amazon Connect ARN> --profile <Your profile>
 
